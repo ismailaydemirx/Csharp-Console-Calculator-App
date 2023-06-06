@@ -31,7 +31,7 @@ Choose an operation:
 5. Memory Recall
 6. Memory Clear
 0. Exit
-Enter your choice (0 - 4): 1
+Enter your choice (0 - 6): 1
 Enter the first number: 5
 Enter the second number: 3
 The result is: 8
