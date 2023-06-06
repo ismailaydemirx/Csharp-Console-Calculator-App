@@ -39,6 +39,6 @@ The result is: 8
 
 ## Developer
 
-This project is developed by Ismail Aydemir as a small project.
+This project is developed by Ismail AYDEMIR as a small project.
 
 ```
