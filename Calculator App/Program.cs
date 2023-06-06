@@ -1,7 +1,5 @@
-﻿        using System;
-using System.Collections.Generic;
-
-bool exit = false;
+﻿bool exit = false;
+List<double> memory = new List<double>();
 
 while (!exit)
 {
@@ -15,8 +13,6 @@ while (!exit)
     Console.WriteLine("5. Memory Recall");
     Console.WriteLine("6. Memory Clear");
     Console.WriteLine("0. Exit");
-
-    List<double> memory = new List<double>();
 
     Console.Write("Enter your choice (0 - 6): ");
 
@@ -34,47 +30,41 @@ while (!exit)
     switch (choice)
     {
         case 1:
-            FonkAddition();
-            printResult(result);
+            result = FonkAddition();
             break;
 
         case 2:
-            FonkSubtraction();
-            printResult(result);
+            result = FonkSubtraction();
             break;
 
         case 3:
-            FonkMultiplication();
-            printResult(result);
+            result = FonkMultiplication();
             break;
 
         case 4:
-            FonkDivision();
+            result = FonkDivision();
             break;
+
         case 5:
             result = MemoryRecall(memory);
             continue;
+
         case 6:
             memory.Clear();
             Console.WriteLine("Memory cleared.");
             continue;
+
         default:
             Console.WriteLine("Invalid choice.");
             continue;
-
     }
 
     memory.Add(result);
-    printResult(result);
+    Console.WriteLine("The result is: " + result);
     Console.WriteLine();
-
-
-    static void printResult(object result)
-    {
-        Console.WriteLine("The result is: " + result);
-    }
-
 }
+
+Console.ReadLine();
 
 static double FonkAddition()
 {
@@ -158,5 +148,3 @@ static double MemoryRecall(List<double> memory)
 
 }
 
-
-Console.ReadLine();
