@@ -1,6 +1,6 @@
-```
 # Csharp-Console-Calculator-App
 
+```
 This is a simple calculator application. It runs in the console and allows the user to perform various mathematical operations.
 
 ## Usage
