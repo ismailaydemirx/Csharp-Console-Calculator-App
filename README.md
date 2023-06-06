@@ -19,8 +19,6 @@ This is a simple calculator application. It runs in the console and allows the u
 - Memory Recall (Operation 5)
 - Memory Clear (Operation 6)
 
-## Example
-
 ```
 Calculator APP
 ---------------
