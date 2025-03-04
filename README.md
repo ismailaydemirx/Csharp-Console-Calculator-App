@@ -1,6 +1,5 @@
 # Csharp-Console-Calculator-App
 
-```
 This is a simple calculator application.
 It runs in the console and allows the user to perform various mathematical operations.
 
@@ -40,5 +39,3 @@ The result is: 8
 ## Developer
 
 This project is developed by Ismail AYDEMIR as a small project.
-
-```
